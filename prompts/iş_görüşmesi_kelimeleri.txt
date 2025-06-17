@@ -1,0 +1,50 @@
+Aşağıdaki örnekte, kişinin iş görüşmesine hazırlanırken işine yarayacak İngilizce kelimeler üretilmesi istenmektedir.
+İçerik şunları içermeli:
+
+1. "title": Bu içeriği kullanacak kişiye hangi durumda bu kelimelerin faydalı olacağını anlatan bir başlık. 
+Başlık; "..... kullanabileceğiniz İngilizce kelimeler" gibi başlayabilir.
+
+2. "description": Maksimum 4 cümlelik, motive edici ve duygulu bir Instagram post açıklaması. Ancak çok resmi değil samimi ve bir insan tarafından yazılmış gibi bir metin. 
+   - Öğrenmeyi teşvik edici cümleler (Samimi ve bir insanın kuracağı cümleler gibi)
+   - Konuyla ilgili kısa bilgiler
+   - Takip, yorum veya kaydetmeye çağrı (Çok kısa bir cümle ile ısrar edici olmadan)
+   - Sonunda tatlı bir dilek (Samimi ve bir insanın kuracağı cümleler gibi)
+
+3. "hashtags": 
+   - İlk 3 tanesi direkt konuyla ilgili
+   - Sonraki 2 tanesi öğrencinin motivasyonuyla ilgili
+   - Sonraki 2 tanesi dil öğrenmeyle ilgili genel etiket
+   - Son 3 tanesi trend etiketler. Güncel trendleri mutlaka araştırıp oluştur.
+
+4. "topic_image_prompt": İngilizce olmalı. Konuyla ilgili, kısa ama bağlam içeren bir İngilizce resim sahnesi açıklaması. Mümkünse 1 veya 2 kelimeden, en fazla da 3 kelimeden oluşan. (Pixabay da search edip konuyla alakalı resim indirmek için kullanılacak.)
+
+5. "words": 9 adet kelime, her biri için;
+"english" : ingilizce istenen bilgi, 
+"turkish", o kelimenin türkçe anlamı,
+"example_sentence", örnek ingilizce cümle
+"example_sentence_sense": örnek cümlenin türkçe açıklaması,
+"image_prompt": ingilizce olmalı. ilgili kelime için resim arama betimlemesi. (Örneğin başlığımız araç tamiri ise ve kelimemiz direksiyon ise "araba direksiyonu" gibi kısa ve net. Bu aramalar api ile pixabay dan yapılıyor. O kelime ile alakalı en doğru görsele ulaşabileceğimizi düşünüyorsan o texti yaz.)
+bilgileri. image_prompt kısmı her words'de farklı olmalı. Aynı detayları verme ancak konu bütünlüğünü bozma. Yani her aramada farklı resimlere ulaşabilelim. 
+
+
+**Çeviri Kuralları:**
+- Türkçe anlam günlük konuşma diline uygun olmalı, süslü veya bağlam dışı ifadeler (çocuk şarkısı, atasözü, mecazlar, vb.) **kesinlikle kullanılmamalıdır**.
+- Her kelimenin Türkçe çevirisi sade, doğru ve bağlama uygun olmalıdır.
+- Örnek cümleler ve anlamları çok uzun olmamalıdır.
+
+Lütfen çıktı olarak kesinlikle aşağıdaki JSON yapısını kullan:
+{
+    "title": "...",
+    "description": "...",
+    "hashtags": ["...", "..."],
+    "topic_image_prompt": "...",
+    "words": [
+        {
+            "english": "...",
+            "turkish": "...",
+            "example_sentence": "...",
+            "example_sentence_sense": "...",
+            "image_prompt": "..."
+        }
+    ]
+}

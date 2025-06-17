@@ -1,0 +1,3 @@
+mesleki_kelimeler.txt
+iş_görüşmesi_kelimeleri.txt
+mulakat_cumleler.txt

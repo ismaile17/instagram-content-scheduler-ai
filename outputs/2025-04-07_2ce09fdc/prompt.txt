@@ -1,0 +1,65 @@
+Aşağıda daha önce kullandığım başlıklar var. Lütfen bu başlıkları tekrar etme ve özgün, farklı bir günlük durum seç!
+Henüz başlık yok.
+
+***Alışveriş veya market konularına değinme, daha genel veya spesifik konular seç***
+
+***Descrption alanında kurulan cümlelerde bu gönderiyi kaydedin gibi emrivaki cümleler değil de biraz daha ikna edici cümleler kur, 
+işinize yarıyorsa kayıt edebilir veya arkadaşınızla paylaşabilirsiniz gibi ama bu örnek cümlelere de bağlı kalma farklı cümleler oluştur***
+
+***Kurulan cümleler konu başlığından asla bağımsız olmasın. İngilizce cümle ve türkçe cümle anlamsız saçma cümleler olmasın. Günlük hayatta kullanılabilecek standart cümleler olsun.***
+Yeni konu:
+
+Aşağıdaki örnekte, kişinin günlük hayatında işine yarayacak İngilizce cümleler üretilmesi istenmektedir.
+Günlük konuşmanın dışına çıkma ve çok uzun cümleler oluşturma.
+
+Her içerik şu alanları içermelidir:
+
+1. "title": İçeriğin ne zaman işe yarayacağını anlatan, “.... durumunda kullanabileceğiniz İngilizce cümleler” gibi başlayabilecek bir başlık. Gerekirse uygun bir emoji eklenebilir.
+
+2. "description": Maksimum 4 cümlelik, motive edici ve duygulu bir Instagram post açıklaması. Ancak çok resmi değil samimi ve bir insan tarafından yazılmış gibi bir metin. 
+   - Öğrenmeyi teşvik edici cümleler (Samimi ve bir insanın kuracağı cümleler gibi)
+   - Konuyla ilgili kısa bilgiler
+   - Takip, yorum veya kaydetmeye çağrı (Çok kısa bir cümle ile ısrar edici olmadan)
+   - Sonunda tatlı bir dilek (Samimi ve bir insanın kuracağı cümleler gibi)
+
+3. "hashtags": 
+   - İlk 3 tanesi direkt konuyla ilgili
+   - Sonraki 2 tanesi öğrencinin motivasyonuyla ilgili
+   - Sonraki 2 tanesi dil öğrenmeyle ilgili genel etiket
+   - Son 3 tanesi trend etiketler. Güncel trendleri mutlaka araştırıp oluştur.
+
+4. "topic_image_prompt": İngilizce olmalı. Konuyla ilgili, kısa ama bağlam içeren bir İngilizce resim sahnesi açıklaması. Mümkünse 1 veya 2 kelimeden, en fazla da 3 kelimeden oluşan. (Pixabay da search edip konuyla alakalı resim indirmek için kullanılacak.)
+
+5. "words": 9 adet cümle, her biri için:
+   - "english": İngilizce örnek cümle
+   - "turkish": Türkçe anlamı
+   - "example_sentence": null
+   - "example_sentence_sense": null
+   - "image_prompt": ingilizce olmalı. ilgili kelime için resim arama betimlemesi. (Örneğin başlığımız araç tamiri ise ve kelimemiz direksiyon ise "araba direksiyonu" gibi kısa ve net. Bu aramalar api ile pixabay dan yapılıyor. O kelime ile alakalı en doğru görsele ulaşabileceğimizi düşünüyorsan o texti yaz.)
+	bilgileri. image_prompt kısmı her words'de farklı olmalı. Aynı detayları verme ancak konu bütünlüğünü bozma. Yani her aramada farklı resimlere ulaşabilelim. 
+
+(null değerleri null texti olarak dönme boş dön yani.)
+
+**Çeviri Kuralları:**
+- Türkçe anlam günlük konuşma diline uygun olmalı, süslü veya bağlam dışı ifadeler (çocuk şarkısı, atasözü, mecazlar, vb.) **kesinlikle kullanılmamalıdır**.
+- Her cümlenin Türkçe çevirisi sade, doğru ve bağlama uygun olmalıdır.
+- Örneğin "Can we play?" cümlesi "Yağ satarım bal satarım oynayalım mı?" gibi bağlam dışı çevrilemez. Doğru çeviri: "Oynayabilir miyiz?"
+
+Lütfen çıktı olarak aşağıdaki JSON yapısını kullan:
+
+```json
+{
+    "title": "...",
+    "description": "...",
+    "hashtags": ["...", "..."],
+    "topic_image_prompt": "...",
+    "words": [
+        {
+            "english": "...",
+            "turkish": "...",
+            "example_sentence": "",
+            "example_sentence_sense": "",
+            "image_prompt": "..."
+        }
+    ]
+}

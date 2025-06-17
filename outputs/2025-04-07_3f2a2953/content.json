@@ -1,0 +1,81 @@
+{
+    "title": "Yazılım Geliştiriciler için Olmazsa Olmaz İngilizce İfadeler 💻",
+    "description": "Yazılım dünyasında başarıya ulaşmak için dil becerileriniz de kritik bir rol oynar! İşte sizin için seçtiğimiz pratik İngilizce cümlelerle kendinizi ifade edin, fikirlerinizi aktarın. Yeni öğrendiğiniz bu ifadelerle projelerinize değer katın ve bu postu kaydederek daima elinizin altında bulundurun. Mutlu kodlamalar!",
+    "hashtags": [
+        "#YazılımGeliştirme",
+        "#KodlamaDili",
+        "#Programlama",
+        "#ÖğrenmeMotivasyonu",
+        "#SürekliGelişim",
+        "#DilÖğrenimi",
+        "#İngilizcePratik",
+        "#TechLife",
+        "#CodingTips"
+    ],
+    "topic_image_prompt": "Coding Laptop",
+    "words": [
+        {
+            "english": "debug",
+            "turkish": "hata ayıklama",
+            "example_sentence": "I spent hours trying to debug this code.",
+            "example_sentence_sense": "Bu kodu hata ayıklamak için saatler harcadım.",
+            "image_prompt": "Computer Error"
+        },
+        {
+            "english": "commit",
+            "turkish": "kaydetmek",
+            "example_sentence": "Remember to commit your changes to the repository.",
+            "example_sentence_sense": "Değişikliklerinizi depoya kaydetmeyi unutmayın.",
+            "image_prompt": "Repository Update"
+        },
+        {
+            "english": "push",
+            "turkish": "yükleme yapmak",
+            "example_sentence": "After committing, push the changes to the remote server.",
+            "example_sentence_sense": "Kaydettikten sonra, değişiklikleri uzak sunucuya yükleyin.",
+            "image_prompt": "Upload to Cloud"
+        },
+        {
+            "english": "pull",
+            "turkish": "çekmek",
+            "example_sentence": "Pull the latest updates from the main branch.",
+            "example_sentence_sense": "Ana dalından en son güncellemeleri çekin.",
+            "image_prompt": "Download from Server"
+        },
+        {
+            "english": "merge",
+            "turkish": "birleştirmek",
+            "example_sentence": "Merge your branch with the master to keep up to date.",
+            "example_sentence_sense": "Güncel kalmak için dalınızı ustala birleştirin.",
+            "image_prompt": "Merge Code"
+        },
+        {
+            "english": "fork",
+            "turkish": "dal oluşturmak",
+            "example_sentence": "Fork the repository to start your own project.",
+            "example_sentence_sense": "Kendi projenizi başlatmak için depoyu dal oluşturun.",
+            "image_prompt": "Code Fork"
+        },
+        {
+            "english": "branch",
+            "turkish": "dal",
+            "example_sentence": "Create a new branch for the feature you're working on.",
+            "example_sentence_sense": "Üzerinde çalıştığınız özellik için yeni bir dal oluşturun.",
+            "image_prompt": "Git Branch"
+        },
+        {
+            "english": "clone",
+            "turkish": "klonlamak",
+            "example_sentence": "Clone the repository to have a local copy on your machine.",
+            "example_sentence_sense": "Makinenizde yerel bir kopyaya sahip olmak için depoyu klonlayın.",
+            "image_prompt": "Copy Project"
+        },
+        {
+            "english": "deploy",
+            "turkish": "yayınlamak",
+            "example_sentence": "Deploy the application to the production environment.",
+            "example_sentence_sense": "Uygulamayı üretim ortamına yayınlayın.",
+            "image_prompt": "Launch Software"
+        }
+    ]
+}

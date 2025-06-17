@@ -1,0 +1,61 @@
+{
+    "title": "Yurt Dışında Seyahat Edilirken Kullanabileceğiniz İngilizce Cümleler 🌍",
+    "description": "Yurt dışı maceralarınızda iletişim kurarken kendinizi daha rahat hissetmek için bu pratik İngilizce cümleleri öğrenin! İşte günlük konuşmalarınıza renk katacak ifadeler. Bu bilgiler işinize yaradıysa kaydetmeyi ve arkadaşlarınızla paylaşmayı unutmayın. Seyahatlerinizde güzel anılar biriktirin!",
+    "hashtags": [
+        "#TravelEnglish",
+        "#YurtDışıSeyahat",
+        "#İngilizceÖğreniyorum",
+        "#DilÖğrenmeMotivasyonu",
+        "#Öğrenmeİpuçları",
+        "#DilÖğrenimi",
+        "#Trendhashtags2023"
+    ],
+    "topic_image_prompt": "Travel conversation",
+    "words": [
+        {
+            "english": "Could you recommend a good restaurant?",
+            "turkish": "İyi bir restoran önerebilir misiniz?",
+            "image_prompt": "restaurant table"
+        },
+        {
+            "english": "What is the best way to get to the airport?",
+            "turkish": "Havaalanına gitmenin en iyi yolu nedir?",
+            "image_prompt": "airport direction"
+        },
+        {
+            "english": "Do you speak English?",
+            "turkish": "İngilizce konuşuyor musunuz?",
+            "image_prompt": "asking question"
+        },
+        {
+            "english": "I would like to buy a ticket.",
+            "turkish": "Bir bilet almak istiyorum.",
+            "image_prompt": "buying ticket"
+        },
+        {
+            "english": "Can you help me with this map?",
+            "turkish": "Bu haritayla bana yardımcı olabilir misiniz?",
+            "image_prompt": "reading map"
+        },
+        {
+            "english": "How much does it cost?",
+            "turkish": "Ne kadar tutuyor?",
+            "image_prompt": "asking price"
+        },
+        {
+            "english": "Is there a discount for students?",
+            "turkish": "Öğrenci indiriminiz var mı?",
+            "image_prompt": "student discount"
+        },
+        {
+            "english": "Can I try this on?",
+            "turkish": "Bunu deneyebilir miyim?",
+            "image_prompt": "trying clothes"
+        },
+        {
+            "english": "Where is the nearest pharmacy?",
+            "turkish": "En yakın eczane nerede?",
+            "image_prompt": "nearest pharmacy"
+        }
+    ]
+}
