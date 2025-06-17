@@ -1,6 +1,7 @@
 🧠 Instagram Auto Content Bot
 
 🌍 English
+
 What is This Project?
 Auto Content Bot is a Python-based automation tool that generates content using AI and images from open APIs, then processes and optionally publishes it to Instagram. The tool creates a complete content cycle: text generation, image matching, composition, and output — all without manual intervention.
 
@@ -42,6 +43,7 @@ Who is it for?
 Perfect for anyone looking to automate content production — especially social media managers, digital marketers, and AI enthusiasts.
 
 🌐 Türkçe
+
 Bu Proje Nedir?
 Auto Content Bot, Python ile geliştirilmiş bir otomasyon aracıdır. Yapay zeka kullanarak metin üretir, açık API’lerden görseller alır, bu görsellere metin ekler ve isteğe bağlı olarak Instagram’a gönderir. Tamamen otomatik çalışan bir içerik döngüsü sunar: yazı üretimi, görsel bulma, görsel işleme ve çıktı üretimi.
 
