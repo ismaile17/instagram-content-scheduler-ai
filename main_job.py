@@ -63,7 +63,7 @@ def run_once():
     # Telegram bildirimi
     title = data.get("title", "Başlık bulunamadı")
     send_telegram_message(
-        bot_token="7564621839:AAGYsmsL4Y0w7YAo9wfc7A_l7mj_bn1rDjM",
+        bot_token="",
         chat_id="2017774678",
         message=f"✅ Yeni içerik hazırlandı: {title}"
     )
